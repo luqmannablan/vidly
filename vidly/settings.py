@@ -25,7 +25,9 @@ SECRET_KEY = 'vo+w9_6lyrsgr^n*(xu52j^6yju3_5s83c6ol8qsv462=+hp3q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'floating-mesa-22333-91b216cf8f19.herokuapp.com/'
+]
 
 
 # Application definition
@@ -46,7 +48,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleWare',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
