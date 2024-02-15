@@ -26,7 +26,7 @@ SECRET_KEY = 'vo+w9_6lyrsgr^n*(xu52j^6yju3_5s83c6ol8qsv462=+hp3q'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'floating-mesa-22333-91b216cf8f19.herokuapp.com/'
+    'floating-mesa-22333-91b216cf8f19.herokuapp.com'
 ]
 
 
